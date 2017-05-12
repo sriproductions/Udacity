@@ -1,0 +1,109 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\csgray\c0;\csgray\c100000;}
+\margl1440\margr1440\vieww13720\viewh4300\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc\partightenfactor0
+
+\f0\b\fs28 \cf0 Report: Heuristic Analysis
+\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 The Optional Sequences for the three planning problems are:\
+\
+Problem1:\
+\
+Problem2:\
+\
+\
+Problem3:\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \cb3 \CocoaLigature0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc\partightenfactor0
+\cf0 	
+\b\fs28 Experimental Results
+\b0\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+Problem 1:\
+\
+Method		Expansions 		Goal Tests	Nodes     PlanLength  Time Taken(secs)\
+\
+Breadth First   	43			56		180		6       		0.08\
+BFTreeSrch		1458			1459		5960		6		2.29\
+DFGraphSrch	21			22		 84		20		0.03\
+DFLimitSrch		
+\f1\fs22 \cf2 \cb3 \CocoaLigature0 101   		271        414  		50		0.18\
+UniformCost	55			57		224		6		0.10\
+RecursiveBFS	4229			4230		17023		6		6.64\
+GreedyBFS-h1	55			57		224		6		0.01\
+AStar-h1		55			57		224		6		0.10\
+AStar-ignorePre 	33			35		134		6		0.08\
+Astar-h_pg_leve 	29			31		122		6		2.12\
+\
+Problem 2:\
+\
+
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 Method		Expansions 		Goal Tests	Nodes     PlanLength  Time Taken(secs)\
+\
+Breadth First   	3343			4609		30509		9		24.8\
+BFTreeSrch		N/A\
+DFGraphSrch	624			625		5602		619		5.3\
+DFLimitSrch		
+\f1\fs22 \cf2 \cb3 \CocoaLigature0 N/A\
+UniformCost	4853			4855		44041		9		59.59\
+RecursiveBFS	N/A\
+GreedyBFS-h1	998			1000		8982		15		10.2\
+AStar-h1		4853			4855		44041		9		59.1\
+AStar-ignorePre 	2076			2078		18945		9		30.8\
+Astar-h_pg_leve  N/A\
+\
+Problem 3:\
+
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 Method		Expansions 		Goal Tests	Nodes     PlanLength  Time Taken(secs)\
+\
+Breadth First   	
+\f1\fs22 \cf2 \cb3 \CocoaLigature0 14663       	18098      129631	12		152
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+BFTreeSrch		N/A\
+DFGraphSrch	
+\f1\fs22 \cf2 \cb3 \CocoaLigature0 408         	409        3364
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 		392		3.02\
+DFLimitSrch		
+\f1\fs22 \cf2 \cb3 \CocoaLigature0 N/A\
+UniformCost	18223           18225      159618	12		436\
+RecursiveBFS	N/A\
+GreedyBFS-h1	5578			5580		49150		22		138\
+AStar-h1		4933			4935		83600		11		136\
+AStar-ignorePre 	2609			2611		43259		11		88.3\
+Astar-h_pg_leve  N/A\
+\
+Note that N/A indicates runs that took too long (longer than  30 minutes) and the run was killed.\
+The optimal solutions sizes for Problems 1, 2, and 3 are 6, 9, and 12, respectively.\
+\
+Of the heuristic methods, Astar-h1 and Astar-ignore-preconditions and uniform cost perform very well, and provide optimal solutions. However, Astar-ignore-preconditions explores the fewest number of nodes and completes the fastest without sacrificing accuracy.\
+\
+Uniform Cost and Astar-ignorePreConditions expand the exact same number of nodes and run the same number of goal tests, most likely because the Uniform Cost heuristic can be derived by weakening the preconditions of the problem statement as done in Astar-ignorepre.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc\partightenfactor0
+
+\f2\b \cf2 Analysis\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\b0 \cf2 \
+For very small problem sizes, most of the search techniques perform well and provide optimal solutions, Depth-first Graph Search and Depth-first Tree Search.  These two search techniques provide poor solutions that are very far from optimal, even if their run time is reasonable.\
+\
+The real differences between the search techniques come to the fore, when the problem size gets larger, and when problem constraints are increased.  Problem 2 increases the problem size without increasing the number of constraints. That is the number of planes have been increased to match the number of items. Thus, it provides a good method for comparing the scalability of the solutions to larger problems with relaxed constraints, i.e., number of planes vs. number of items.  \
+\
+Depth-first search methods are clearly not practical given the number of nodes it explores for even the small problem sizes in this project. Breadth-First-Search is similarly computationally too expensive and explores too many nodes, with increasing problem size to be of practical use.  However, Greedy Breadth-First-Search with h1 heuristic performs faster, though it yields solutions that are off from the optimal solution by a factor of 3.\
+\
+Of the heuristic methods, variations of Astar algorithm and the uniform cost method perform extremely well, though Astar-h_pg_level takes far too long, indicating that the heuristic expands too many nodes unnecessarily, taking far longer to reach the optimal solution.\
+\
+Astar-ignorepreconditions and uniform-cost have almost identical performance, and produce optimal results and expand the least number of nodes and do minimum goal checks.  These two techniques seem to be clearly the best two in the suite of search methods run in the experiments.\
+\
+It seems clear that the main tradeoff here is between computation cost and optimality with increasing problem sizes.  Simple heuristics based on weakening preconditions along with Astar search method seems like a consistent way to get optimal search results with the least computation cost.\
+}

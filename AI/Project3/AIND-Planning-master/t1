@@ -1,0 +1,1604 @@
+Script started on Mon Mar 20 14:21:43 2017
+[?1034h(aind) srikanth-mac-2:AIND-Planning-master srikanth$ for i in {1..3}; do for j in {1..10}; do python run_search.py -p ${i} -s ${j][K} ;[1@e[1@c[1@h[1@o[1@ [1@P[1@r[1@o[1@b[1@l[1@e[1@m[1@1[1@ [1@M[1@e[1P[1P[1P[1P[1@$[1@{[1@i[1@}[1@ [1P[1@M[1P[1@M[1@e[1@h[1@o[1@d[1P[1P[1P[1@t[1@h[1@o[1@d[1@$[1@:[1P[1@{[1@j[1@}[1@{[1P[1@ [1@;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C done; don e
+Problem1Method1
+
+Solving Air Cargo Problem 1 using breadth_first_search...
+
+Expansions   Goal Tests   New Nodes
+    43          56         180    
+
+Plan length: 6  Time elapsed in seconds: 0.07971792202442884
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+
+Problem1Method2
+
+Solving Air Cargo Problem 1 using breadth_first_tree_search...
+
+Expansions   Goal Tests   New Nodes
+   1458        1459        5960   
+
+Plan length: 6  Time elapsed in seconds: 2.2855978128500283
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+
+Problem1Method3
+
+Solving Air Cargo Problem 1 using depth_first_graph_search...
+
+Expansions   Goal Tests   New Nodes
+    21          22          84    
+
+Plan length: 20  Time elapsed in seconds: 0.03898696694523096
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Load(C2, P1, JFK)
+Fly(P1, JFK, SFO)
+Fly(P2, SFO, JFK)
+Unload(C2, P1, SFO)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Load(C2, P2, SFO)
+Fly(P1, JFK, SFO)
+Load(C1, P2, SFO)
+Fly(P2, SFO, JFK)
+Fly(P1, SFO, JFK)
+Unload(C2, P2, JFK)
+Unload(C1, P2, JFK)
+Fly(P2, JFK, SFO)
+Load(C2, P1, JFK)
+Fly(P1, JFK, SFO)
+Fly(P2, SFO, JFK)
+Unload(C2, P1, SFO)
+
+Problem1Method4
+
+Solving Air Cargo Problem 1 using depth_limited_search...
+
+Expansions   Goal Tests   New Nodes
+   101         271         414    
+
+Plan length: 50  Time elapsed in seconds: 0.18496253388002515
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Unload(C1, P1, SFO)
+Load(C1, P1, SFO)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+
+Problem1Method5
+
+Solving Air Cargo Problem 1 using uniform_cost_search...
+
+Expansions   Goal Tests   New Nodes
+    55          57         224    
+
+Plan length: 6  Time elapsed in seconds: 0.09897131193429232
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Unload(C1, P1, JFK)
+Unload(C2, P2, SFO)
+
+Problem1Method6
+
+Solving Air Cargo Problem 1 using recursive_best_first_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+   4229        4230       17023   
+
+Plan length: 6  Time elapsed in seconds: 6.641601499635726
+Load(C2, P2, JFK)
+Load(C1, P1, SFO)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+
+Problem1Method7
+
+Solving Air Cargo Problem 1 using greedy_best_first_graph_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+    7           9           28    
+
+Plan length: 6  Time elapsed in seconds: 0.01150888204574585
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Unload(C1, P1, JFK)
+Unload(C2, P2, SFO)
+
+Problem1Method8
+
+Solving Air Cargo Problem 1 using astar_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+    55          57         224    
+
+Plan length: 6  Time elapsed in seconds: 0.09842921886593103
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Unload(C1, P1, JFK)
+Unload(C2, P2, SFO)
+
+Problem1Method9
+
+Solving Air Cargo Problem 1 using astar_search with h_ignore_preconditions...
+
+Expansions   Goal Tests   New Nodes
+    33          35         134    
+
+Plan length: 6  Time elapsed in seconds: 0.07993724383413792
+Load(C1, P1, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+Load(C2, P2, JFK)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+
+Problem1Method10
+
+Solving Air Cargo Problem 1 using astar_search with h_pg_levelsum...
+
+Expansions   Goal Tests   New Nodes
+    29          31         122    
+
+Plan length: 6  Time elapsed in seconds: 2.1218991060741246
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+
+Problem2Method1
+
+Solving Air Cargo Problem 2 using breadth_first_search...
+
+Expansions   Goal Tests   New Nodes
+   3343        4609       30509   
+
+Plan length: 9  Time elapsed in seconds: 24.80716142617166
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Load(C3, P3, ATL)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+Fly(P3, ATL, SFO)
+Unload(C3, P3, SFO)
+
+Problem2Method2
+
+Solving Air Cargo Problem 2 using breadth_first_tree_search...
+^CTraceback (most recent call last):
+  File "run_search.py", line 124, in <module>
+    main(list(sorted(set(args.problems))), list(sorted(set((args.searches)))))
+  File "run_search.py", line 101, in main
+    run_search(_p, s, _h)
+  File "run_search.py", line 59, in run_search
+    node = search_function(ip)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 208, in breadth_first_tree_search
+    return tree_search(problem, FIFOQueue())
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 185, in tree_search
+    frontier.extend(node.expand(problem))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 107, in expand
+    for action in problem.actions(self.state)]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 107, in <listcomp>
+    for action in problem.actions(self.state)]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 111, in child_node
+    next = problem.result(self.state, action)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 1116, in result
+    return self.problem.result(state, action)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_air_cargo_problems.py", line 157, in result
+    kb.tell(fluentState.pos_sentence())
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/lp_utils.py", line 18, in pos_sentence
+    return expr(conjunctive_sentence(self.pos, []))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/lp_utils.py", line 31, in conjunctive_sentence
+    clauses.append(expr("{}".format(f)))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 422, in __repr__
+    args = [str(arg) for arg in self.args]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 422, in <listcomp>
+    args = [str(arg) for arg in self.args]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 424, in __repr__
+    return '{}({})'.format(op, ', '.join(args)) if args else op
+KeyboardInterrupt
+Problem2Method3
+
+Solving Air Cargo Problem 2 using depth_first_graph_search...
+
+Expansions   Goal Tests   New Nodes
+   624         625         5602   
+
+Plan length: 619  Time elapsed in seconds: 5.3661378268152475
+Fly(P3, ATL, SFO)
+Fly(P1, SFO, ATL)
+Fly(P3, SFO, JFK)
+Fly(P1, ATL, JFK)
+Fly(P2, JFK, ATL)
+Fly(P3, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P3, ATL, SFO)
+Load(C2, P1, JFK)
+Fly(P2, SFO, ATL)
+Fly(P1, JFK, ATL)
+Fly(P2, ATL, JFK)
+Fly(P1, ATL, SFO)
+Fly(P3, SFO, ATL)
+Fly(P1, SFO, JFK)
+Load(C3, P3, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, JFK, ATL)
+Fly(P3, SFO, JFK)
+Fly(P2, ATL, SFO)
+Fly(P1, JFK, ATL)
+Fly(P2, SFO, JFK)
+Fly(P1, ATL, SFO)
+Unload(C3, P3, JFK)
+Fly(P1, SFO, JFK)
+Fly(P3, JFK, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, ATL, SFO)
+Fly(P1, JFK, ATL)
+Fly(P3, SFO, ATL)
+Fly(P1, ATL, SFO)
+Unload(C2, P1, SFO)
+Fly(P3, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, ATL)
+Fly(P2, ATL, JFK)
+Fly(P1, ATL, JFK)
+Fly(P3, SFO, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, SFO)
+Fly(P1, JFK, ATL)
+Load(C3, P3, JFK)
+Fly(P1, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P3, JFK, ATL)
+Fly(P2, ATL, JFK)
+Fly(P3, ATL, SFO)
+Fly(P1, SFO, ATL)
+Fly(P2, JFK, ATL)
+Fly(P1, ATL, JFK)
+Fly(P2, ATL, SFO)
+Fly(P3, SFO, ATL)
+Unload(C3, P3, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P3, SFO, JFK)
+Fly(P2, ATL, JFK)
+Fly(P1, JFK, ATL)
+Fly(P3, JFK, ATL)
+Fly(P2, JFK, ATL)
+Load(C3, P2, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, JFK)
+Fly(P3, ATL, JFK)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Unload(C3, P2, SFO)
+Fly(P2, SFO, ATL)
+Fly(P3, JFK, ATL)
+Fly(P2, ATL, JFK)
+Fly(P3, ATL, SFO)
+Load(C2, P3, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, SFO)
+Fly(P1, JFK, ATL)
+Fly(P2, SFO, JFK)
+Fly(P1, ATL, SFO)
+Unload(C2, P3, JFK)
+Fly(P1, SFO, JFK)
+Fly(P3, JFK, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, ATL, SFO)
+Fly(P1, JFK, ATL)
+Fly(P3, SFO, ATL)
+Fly(P1, ATL, SFO)
+Load(C3, P2, SFO)
+Fly(P3, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, ATL)
+Fly(P2, ATL, JFK)
+Fly(P1, ATL, JFK)
+Fly(P3, SFO, ATL)
+Load(C2, P2, JFK)
+Fly(P3, ATL, JFK)
+Fly(P2, JFK, ATL)
+Fly(P1, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Unload(C3, P2, SFO)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, ATL)
+Fly(P2, ATL, JFK)
+Fly(P3, JFK, ATL)
+Fly(P1, ATL, SFO)
+Fly(P3, ATL, SFO)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, ATL)
+Fly(P3, SFO, ATL)
+Fly(P2, ATL, SFO)
+Load(C1, P2, SFO)
+Fly(P3, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P3, SFO, JFK)
+Fly(P2, ATL, JFK)
+Fly(P1, JFK, ATL)
+Fly(P3, JFK, ATL)
+Fly(P1, ATL, SFO)
+Fly(P3, ATL, SFO)
+Unload(C2, P2, JFK)
+Fly(P1, SFO, ATL)
+Fly(P2, JFK, ATL)
+Fly(P1, ATL, JFK)
+Fly(P3, SFO, ATL)
+Fly(P2, ATL, SFO)
+Fly(P3, ATL, JFK)
+Fly(P1, JFK, ATL)
+Load(C3, P2, SFO)
+Fly(P1, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, JFK)
+Fly(P2, ATL, JFK)
+Fly(P3, JFK, ATL)
+Fly(P1, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P1, ATL, SFO)
+Unload(C3, P2, JFK)
+Fly(P3, SFO, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, SFO)
+Fly(P1, SFO, ATL)
+Fly(P2, SFO, JFK)
+Unload(C1, P2, JFK)
+Fly(P1, ATL, SFO)
+Fly(P2, JFK, ATL)
+Fly(P1, SFO, JFK)
+Fly(P2, ATL, SFO)
+Fly(P3, JFK, ATL)
+Fly(P2, SFO, JFK)
+Fly(P3, ATL, SFO)
+Load(C3, P2, JFK)
+Fly(P2, JFK, ATL)
+Fly(P3, SFO, ATL)
+Fly(P2, ATL, SFO)
+Fly(P3, ATL, JFK)
+Fly(P1, JFK, ATL)
+Fly(P2, SFO, ATL)
+Fly(P1, ATL, SFO)
+Unload(C3, P2, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, SFO, ATL)
+Fly(P2, SFO, JFK)
+Fly(P1, ATL, JFK)
+Fly(P3, JFK, ATL)
+Fly(P2, JFK, SFO)
+Fly(P3, ATL, SFO)
+Load(C2, P1, JFK)
+Fly(P2, SFO, ATL)
+Fly(P3, SFO, ATL)
+Fly(P1, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P3, ATL, JFK)
+Fly(P2, SFO, ATL)
+Unload(C2, P1, SFO)
+Fly(P2, ATL, JFK)
+Fly(P1, SFO, ATL)
+Fly(P3, JFK, ATL)
+Fly(P1, ATL, JFK)
+Fly(P3, ATL, SFO)
+Fly(P2, JFK, ATL)
+Fly(P1, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Load(C2, P3, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, ATL)
+Fly(P3, ATL, JFK)
+Fly(P1, ATL, JFK)
+Fly(P2, ATL, SFO)
+Load(C1, P3, JFK)
+Fly(P2, SFO, JFK)
+Fly(P3, JFK, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P1, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P3, SFO, ATL)
+Unload(C2, P3, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, ATL)
+Fly(P2, ATL, JFK)
+Fly(P1, ATL, JFK)
+Fly(P3, SFO, JFK)
+Fly(P2, JFK, ATL)
+Unload(C1, P3, JFK)
+Fly(P2, ATL, SFO)
+Fly(P3, JFK, ATL)
+Fly(P2, SFO, JFK)
+Fly(P3, ATL, SFO)
+Fly(P1, JFK, ATL)
+Fly(P3, SFO, JFK)
+Fly(P1, ATL, SFO)
+Load(C1, P2, JFK)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, ATL)
+Fly(P3, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P3, ATL, SFO)
+Fly(P1, JFK, ATL)
+Fly(P2, SFO, ATL)
+Fly(P1, ATL, SFO)
+Unload(C1, P2, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, SFO, ATL)
+Fly(P3, SFO, ATL)
+Fly(P1, ATL, JFK)
+Fly(P3, ATL, JFK)
+Fly(P2, SFO, JFK)
+Fly(P1, JFK, ATL)
+Fly(P2, JFK, ATL)
+Load(C3, P2, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P2, SFO, JFK)
+Fly(P1, SFO, JFK)
+Fly(P3, JFK, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, ATL, SFO)
+Unload(C3, P2, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, JFK)
+Fly(P1, JFK, ATL)
+Fly(P3, JFK, ATL)
+Fly(P1, ATL, SFO)
+Fly(P3, ATL, SFO)
+Fly(P2, JFK, ATL)
+Fly(P1, SFO, ATL)
+Load(C3, P3, SFO)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, JFK)
+Fly(P1, SFO, ATL)
+Fly(P3, JFK, ATL)
+Fly(P1, ATL, JFK)
+Load(C2, P3, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, JFK, ATL)
+Fly(P3, SFO, JFK)
+Fly(P2, ATL, SFO)
+Fly(P1, JFK, ATL)
+Fly(P2, SFO, JFK)
+Fly(P1, ATL, SFO)
+Unload(C3, P3, JFK)
+Fly(P1, SFO, JFK)
+Fly(P3, JFK, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, ATL, SFO)
+Fly(P1, JFK, ATL)
+Fly(P3, SFO, ATL)
+Fly(P1, ATL, SFO)
+Unload(C2, P3, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, ATL)
+Fly(P2, ATL, JFK)
+Fly(P1, ATL, JFK)
+Load(C3, P1, JFK)
+Fly(P3, SFO, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, SFO)
+Fly(P1, JFK, ATL)
+Load(C2, P1, ATL)
+Fly(P1, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, JFK)
+Fly(P2, ATL, JFK)
+Fly(P3, JFK, ATL)
+Fly(P1, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P1, ATL, SFO)
+Unload(C3, P1, SFO)
+Fly(P3, SFO, ATL)
+Fly(P1, SFO, JFK)
+Fly(P3, ATL, JFK)
+Fly(P2, JFK, ATL)
+Fly(P1, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P3, JFK, ATL)
+Load(C3, P2, SFO)
+Fly(P3, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P3, SFO, ATL)
+Fly(P2, ATL, JFK)
+Fly(P3, ATL, JFK)
+Fly(P1, SFO, ATL)
+Unload(C3, P2, JFK)
+Fly(P3, JFK, ATL)
+Fly(P2, JFK, ATL)
+Fly(P1, ATL, SFO)
+Fly(P3, ATL, SFO)
+Fly(P2, ATL, SFO)
+Fly(P1, SFO, ATL)
+Load(C1, P1, ATL)
+Fly(P1, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P3, SFO, ATL)
+Fly(P2, ATL, JFK)
+Fly(P1, SFO, JFK)
+Fly(P3, ATL, SFO)
+Load(C3, P2, JFK)
+Fly(P3, SFO, JFK)
+Fly(P2, JFK, ATL)
+Fly(P3, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, JFK, SFO)
+Fly(P3, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, ATL)
+Unload(C3, P2, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, JFK)
+Fly(P1, SFO, ATL)
+Fly(P3, JFK, ATL)
+Fly(P1, ATL, JFK)
+Fly(P3, ATL, SFO)
+Unload(C2, P1, JFK)
+Fly(P2, JFK, ATL)
+Fly(P3, SFO, ATL)
+Fly(P1, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P3, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P3, SFO, JFK)
+Fly(P2, SFO, ATL)
+Load(C3, P2, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, SFO, ATL)
+Fly(P2, SFO, JFK)
+Fly(P3, JFK, ATL)
+Fly(P1, ATL, SFO)
+Fly(P3, ATL, SFO)
+Unload(C3, P2, JFK)
+Fly(P1, SFO, ATL)
+Fly(P2, JFK, ATL)
+Fly(P1, ATL, JFK)
+Fly(P2, ATL, SFO)
+Load(C3, P1, JFK)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, JFK)
+Fly(P1, JFK, ATL)
+Fly(P3, JFK, ATL)
+Fly(P1, ATL, SFO)
+Fly(P3, ATL, SFO)
+Fly(P2, JFK, ATL)
+Fly(P1, SFO, ATL)
+Unload(C1, P1, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, JFK)
+Unload(C3, P1, SFO)
+Fly(P1, SFO, ATL)
+Fly(P3, JFK, ATL)
+Fly(P2, JFK, ATL)
+Load(C1, P3, ATL)
+Fly(P3, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P2, ATL, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, JFK)
+Fly(P3, ATL, JFK)
+Fly(P1, SFO, ATL)
+Fly(P2, JFK, SFO)
+Fly(P1, ATL, JFK)
+Fly(P2, SFO, ATL)
+Unload(C1, P3, JFK)
+Fly(P2, ATL, JFK)
+Fly(P3, JFK, ATL)
+Fly(P1, JFK, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P3, SFO, ATL)
+Load(C3, P1, SFO)
+Fly(P3, ATL, JFK)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, ATL)
+Fly(P3, JFK, ATL)
+Fly(P2, ATL, JFK)
+Fly(P3, ATL, SFO)
+Fly(P1, ATL, SFO)
+Load(C2, P2, JFK)
+Fly(P3, SFO, ATL)
+Fly(P1, SFO, JFK)
+Fly(P3, ATL, JFK)
+Fly(P2, JFK, ATL)
+Fly(P1, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Unload(C3, P1, SFO)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, ATL)
+Fly(P3, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P3, ATL, SFO)
+Fly(P1, ATL, JFK)
+Fly(P2, SFO, ATL)
+Unload(C2, P2, ATL)
+Fly(P2, ATL, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, JFK)
+Fly(P3, ATL, JFK)
+Fly(P1, JFK, ATL)
+Fly(P3, JFK, SFO)
+Fly(P1, ATL, SFO)
+Load(C3, P3, SFO)
+Fly(P3, SFO, ATL)
+Fly(P1, SFO, ATL)
+Fly(P3, ATL, JFK)
+Fly(P1, ATL, JFK)
+Fly(P2, JFK, ATL)
+Fly(P3, JFK, ATL)
+Load(C2, P3, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, ATL, SFO)
+Fly(P3, SFO, JFK)
+Fly(P2, SFO, JFK)
+Fly(P1, JFK, ATL)
+Fly(P2, JFK, ATL)
+Fly(P1, ATL, SFO)
+Load(C1, P3, JFK)
+Fly(P2, ATL, SFO)
+Fly(P1, SFO, ATL)
+Fly(P3, JFK, ATL)
+Fly(P1, ATL, JFK)
+Fly(P3, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P1, JFK, ATL)
+Fly(P2, ATL, JFK)
+Fly(P1, ATL, SFO)
+Fly(P3, SFO, ATL)
+Unload(C2, P3, ATL)
+Fly(P3, ATL, SFO)
+Fly(P1, SFO, ATL)
+Fly(P2, JFK, ATL)
+Fly(P1, ATL, JFK)
+Fly(P2, ATL, SFO)
+Fly(P3, SFO, JFK)
+Fly(P1, JFK, ATL)
+Unload(C3, P3, JFK)
+Fly(P1, ATL, SFO)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, JFK)
+Fly(P2, ATL, JFK)
+Fly(P3, JFK, ATL)
+Fly(P1, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P1, ATL, SFO)
+Unload(C1, P3, SFO)
+Fly(P3, SFO, ATL)
+Fly(P1, SFO, ATL)
+Fly(P3, ATL, JFK)
+Fly(P1, ATL, JFK)
+Fly(P2, JFK, ATL)
+Fly(P3, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P3, ATL, SFO)
+Load(C3, P1, JFK)
+Fly(P2, SFO, ATL)
+Fly(P1, JFK, ATL)
+Fly(P2, ATL, JFK)
+Fly(P1, ATL, SFO)
+Fly(P3, SFO, ATL)
+Fly(P1, SFO, JFK)
+Load(C2, P3, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, JFK, ATL)
+Fly(P3, SFO, JFK)
+Fly(P2, ATL, SFO)
+Fly(P1, JFK, ATL)
+Fly(P3, JFK, ATL)
+Fly(P1, ATL, SFO)
+Fly(P3, ATL, SFO)
+Unload(C3, P1, SFO)
+Fly(P2, SFO, ATL)
+Unload(C2, P3, SFO)
+Load(C3, P1, SFO)
+Fly(P2, ATL, JFK)
+Fly(P3, SFO, ATL)
+Fly(P2, JFK, SFO)
+Fly(P3, ATL, JFK)
+Fly(P1, SFO, ATL)
+Fly(P3, JFK, SFO)
+Fly(P1, ATL, JFK)
+Load(C2, P2, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, JFK)
+Fly(P1, JFK, ATL)
+Fly(P3, JFK, ATL)
+Unload(C3, P1, ATL)
+Fly(P1, ATL, JFK)
+Fly(P3, ATL, SFO)
+Fly(P2, JFK, ATL)
+Fly(P1, JFK, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, JFK)
+Load(C1, P1, SFO)
+Fly(P1, SFO, ATL)
+Fly(P3, JFK, ATL)
+Fly(P1, ATL, JFK)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, ATL, SFO)
+Fly(P3, SFO, JFK)
+Unload(C2, P2, SFO)
+Fly(P2, SFO, ATL)
+Fly(P3, JFK, ATL)
+Fly(P1, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, ATL, SFO)
+Unload(C1, P1, ATL)
+Fly(P1, ATL, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, JFK)
+Fly(P1, SFO, ATL)
+Fly(P3, JFK, ATL)
+Fly(P1, ATL, JFK)
+Fly(P3, ATL, SFO)
+Fly(P2, JFK, ATL)
+Load(C3, P2, ATL)
+Fly(P2, ATL, SFO)
+Fly(P3, SFO, ATL)
+Fly(P2, SFO, JFK)
+Fly(P3, ATL, JFK)
+Fly(P1, JFK, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, JFK, ATL)
+Load(C1, P3, ATL)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Fly(P3, ATL, JFK)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, JFK)
+Fly(P2, ATL, JFK)
+Fly(P1, JFK, ATL)
+Fly(P3, JFK, SFO)
+Fly(P1, ATL, SFO)
+Unload(C3, P2, JFK)
+Fly(P3, SFO, ATL)
+Fly(P1, SFO, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, JFK)
+Fly(P2, ATL, SFO)
+Fly(P1, ATL, SFO)
+Unload(C1, P3, JFK)
+Fly(P2, SFO, ATL)
+Fly(P1, SFO, JFK)
+Fly(P2, ATL, JFK)
+Fly(P3, JFK, ATL)
+Fly(P1, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P1, ATL, SFO)
+Load(C3, P2, JFK)
+Fly(P3, SFO, ATL)
+Fly(P2, JFK, ATL)
+Fly(P1, SFO, ATL)
+Fly(P2, ATL, SFO)
+Fly(P3, ATL, SFO)
+Fly(P1, ATL, JFK)
+Fly(P3, SFO, JFK)
+Unload(C3, P2, SFO)
+
+Problem2Method4
+
+Solving Air Cargo Problem 2 using depth_limited_search...
+^CTraceback (most recent call last):
+  File "run_search.py", line 124, in <module>
+    main(list(sorted(set(args.problems))), list(sorted(set((args.searches)))))
+  File "run_search.py", line 101, in main
+    run_search(_p, s, _h)
+  File "run_search.py", line 59, in run_search
+    node = search_function(ip)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 294, in depth_limited_search
+    return recursive_dls(Node(problem.initial), problem, limit)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 286, in recursive_dls
+    result = recursive_dls(child, problem, limit - 1)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 286, in recursive_dls
+    result = recursive_dls(child, problem, limit - 1)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 286, in recursive_dls
+    result = recursive_dls(child, problem, limit - 1)
+  [Previous line repeated 45 more times]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 285, in recursive_dls
+    for child in node.expand(problem):
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 107, in expand
+    for action in problem.actions(self.state)]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 107, in <listcomp>
+    for action in problem.actions(self.state)]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 111, in child_node
+    next = problem.result(self.state, action)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 1116, in result
+    return self.problem.result(state, action)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_air_cargo_problems.py", line 158, in result
+    action.act(kb,action.args)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/planning.py", line 86, in act
+    if not self.check_precond(kb, args):
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/planning.py", line 75, in check_precond
+    if self.substitute(clause, args) not in kb.clauses:
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/planning.py", line 65, in substitute
+    for num, x in enumerate(e.args):
+KeyboardInterrupt
+Problem2Method5
+
+Solving Air Cargo Problem 2 using uniform_cost_search...
+
+Expansions   Goal Tests   New Nodes
+   4853        4855       44041   
+
+Plan length: 9  Time elapsed in seconds: 59.596649962011725
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Load(C3, P3, ATL)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Fly(P3, ATL, SFO)
+Unload(C3, P3, SFO)
+Unload(C2, P2, SFO)
+Unload(C1, P1, JFK)
+
+Problem2Method6
+
+Solving Air Cargo Problem 2 using recursive_best_first_search with h_1...
+^CTraceback (most recent call last):
+  File "run_search.py", line 124, in <module>
+    main(list(sorted(set(args.problems))), list(sorted(set((args.searches)))))
+  File "run_search.py", line 101, in main
+    run_search(_p, s, _h)
+  File "run_search.py", line 57, in run_search
+    node = search_function(ip, parameter)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 350, in recursive_best_first_search
+    result, bestf = RBFS(problem, node, infinity)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 344, in RBFS
+    result, best.f = RBFS(problem, best, min(flimit, alternative))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 344, in RBFS
+    result, best.f = RBFS(problem, best, min(flimit, alternative))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 344, in RBFS
+    result, best.f = RBFS(problem, best, min(flimit, alternative))
+  [Previous line repeated 1 more times]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 329, in RBFS
+    successors = node.expand(problem)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 107, in expand
+    for action in problem.actions(self.state)]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 107, in <listcomp>
+    for action in problem.actions(self.state)]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 111, in child_node
+    next = problem.result(self.state, action)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 1116, in result
+    return self.problem.result(state, action)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_air_cargo_problems.py", line 157, in result
+    kb.tell(fluentState.pos_sentence())
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/lp_utils.py", line 18, in pos_sentence
+    return expr(conjunctive_sentence(self.pos, []))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/lp_utils.py", line 31, in conjunctive_sentence
+    clauses.append(expr("{}".format(f)))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 482, in expr
+    return eval(expr_handle_infix_ops(x), defaultkeydict(Symbol))
+  File "<string>", line 1, in <module>
+KeyboardInterrupt
+Problem2Method7
+
+Solving Air Cargo Problem 2 using greedy_best_first_graph_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+   998         1000        8982   
+
+Plan length: 15  Time elapsed in seconds: 10.298751485068351
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Load(C3, P3, ATL)
+Fly(P1, SFO, ATL)
+Fly(P2, JFK, ATL)
+Fly(P3, ATL, SFO)
+Fly(P2, ATL, SFO)
+Unload(C2, P2, SFO)
+Load(C2, P3, SFO)
+Fly(P2, SFO, ATL)
+Fly(P1, ATL, JFK)
+Unload(C1, P1, JFK)
+Fly(P1, JFK, ATL)
+Unload(C3, P3, SFO)
+Unload(C2, P3, SFO)
+
+Problem2Method8
+
+Solving Air Cargo Problem 2 using astar_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+   4853        4855       44041   
+
+Plan length: 9  Time elapsed in seconds: 59.1831303788349
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Load(C3, P3, ATL)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Fly(P3, ATL, SFO)
+Unload(C3, P3, SFO)
+Unload(C2, P2, SFO)
+Unload(C1, P1, JFK)
+
+Problem2Method9
+
+Solving Air Cargo Problem 2 using astar_search with h_ignore_preconditions...
+
+Expansions   Goal Tests   New Nodes
+   2076        2078       18945   
+
+Plan length: 9  Time elapsed in seconds: 30.809547105804086
+Load(C3, P3, ATL)
+Fly(P3, ATL, SFO)
+Unload(C3, P3, SFO)
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Unload(C2, P2, SFO)
+Unload(C1, P1, JFK)
+
+Problem2Method10
+
+Solving Air Cargo Problem 2 using astar_search with h_pg_levelsum...
+^CTraceback (most recent call last):
+  File "run_search.py", line 124, in <module>
+    main(list(sorted(set(args.problems))), list(sorted(set((args.searches)))))
+  File "run_search.py", line 101, in main
+    run_search(_p, s, _h)
+  File "run_search.py", line 57, in run_search
+    node = search_function(ip, parameter)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 316, in astar_search
+    return best_first_graph_search(problem, lambda n: n.path_cost + h(n))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 262, in best_first_graph_search
+    frontier.append(child)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 586, in append
+    bisect.insort(self.A, (self.f(item), item))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 280, in memoized_fn
+    val = fn(obj, *args)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 316, in <lambda>
+    return best_first_graph_search(problem, lambda n: n.path_cost + h(n))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 280, in memoized_fn
+    val = fn(obj, *args)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_air_cargo_problems.py", line 189, in h_pg_levelsum
+    pg = PlanningGraph(self, node.state)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_planning_graph.py", line 225, in __init__
+    self.create_graph()
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_planning_graph.py", line 289, in create_graph
+    self.update_a_mutex(self.a_levels[level])
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_planning_graph.py", line 369, in update_a_mutex
+    self.inconsistent_effects_mutex(n1, n2) or
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_planning_graph.py", line 410, in inconsistent_effects_mutex
+    if literal in node_a2.action.effect_add:
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 412, in __eq__
+    def __eq__(self, other):
+KeyboardInterrupt
+Problem3Method1
+
+Solving Air Cargo Problem 3 using breadth_first_search...
+
+Expansions   Goal Tests   New Nodes
+   3679        4734       61106   
+
+Plan length: 11  Time elapsed in seconds: 66.61898812511936
+Load(C1, P1, SFO)
+Fly(P1, SFO, JFK)
+Load(C2, P1, JFK)
+Unload(C1, P1, JFK)
+Unload(C2, P1, SFO)
+Fly(P1, SFO, ATL)
+Load(C3, P1, ATL)
+Unload(C3, P1, JFK)
+Fly(P1, JFK, ORD)
+Load(C4, P1, ORD)
+Unload(C4, P1, SFO)
+
+Problem3Method2
+
+Solving Air Cargo Problem 3 using breadth_first_tree_search...
+^CTraceback (most recent call last):
+  File "run_search.py", line 124, in <module>
+    main(list(sorted(set(args.problems))), list(sorted(set((args.searches)))))
+  File "run_search.py", line 101, in main
+    run_search(_p, s, _h)
+  File "run_search.py", line 59, in run_search
+    node = search_function(ip)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 208, in breadth_first_tree_search
+    return tree_search(problem, FIFOQueue())
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 185, in tree_search
+    frontier.extend(node.expand(problem))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 107, in expand
+    for action in problem.actions(self.state)]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 1112, in actions
+    return self.problem.actions(state)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_air_cargo_problems.py", line 142, in actions
+    if act.check_precond(kb,act.args):
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/planning.py", line 75, in check_precond
+    if self.substitute(clause, args) not in kb.clauses:
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/planning.py", line 66, in substitute
+    for i in range(len(self.args)):
+KeyboardInterrupt
+Problem3Method3
+
+Solving Air Cargo Problem 3 using depth_first_graph_search...
+
+Expansions   Goal Tests   New Nodes
+   723         724        11219   
+
+Plan length: 265  Time elapsed in seconds: 11.948640275746584
+Fly(P1, SFO, ORD)
+Fly(P1, SFO, ATL)
+Fly(P1, SFO, JFK)
+Fly(P2, JFK, SFO)
+Load(C4, P1, ORD)
+Fly(P1, JFK, SFO)
+Unload(C4, P1, ATL)
+Load(C3, P1, ATL)
+Fly(P1, SFO, JFK)
+Unload(C3, P1, ORD)
+Load(C4, P1, ATL)
+Fly(P1, JFK, SFO)
+Unload(C4, P1, ORD)
+Load(C3, P1, ORD)
+Unload(C3, P1, SFO)
+Fly(P1, SFO, JFK)
+Load(C4, P1, ORD)
+Unload(C4, P1, SFO)
+Fly(P1, JFK, SFO)
+Load(C3, P1, SFO)
+Load(C1, P1, SFO)
+Fly(P1, SFO, JFK)
+Unload(C3, P1, ORD)
+Unload(C1, P1, ORD)
+Fly(P1, JFK, SFO)
+Load(C4, P1, SFO)
+Unload(C4, P1, ORD)
+Fly(P1, SFO, JFK)
+Load(C3, P1, ORD)
+Unload(C3, P1, ATL)
+Fly(P1, JFK, SFO)
+Load(C4, P1, ORD)
+Unload(C4, P1, ATL)
+Fly(P1, SFO, JFK)
+Load(C3, P1, ATL)
+Unload(C3, P1, ORD)
+Load(C2, P1, JFK)
+Fly(P1, JFK, SFO)
+Unload(C2, P1, ORD)
+Load(C4, P1, ATL)
+Fly(P1, SFO, JFK)
+Unload(C4, P1, ORD)
+Load(C3, P1, ORD)
+Fly(P1, JFK, SFO)
+Unload(C3, P1, ATL)
+Load(C4, P1, ORD)
+Fly(P1, SFO, JFK)
+Unload(C4, P1, ATL)
+Load(C3, P1, ATL)
+Unload(C3, P1, SFO)
+Fly(P1, JFK, SFO)
+Load(C4, P1, ATL)
+Unload(C4, P1, SFO)
+Fly(P1, SFO, JFK)
+Load(C3, P1, SFO)
+Unload(C3, P1, JFK)
+Fly(P1, JFK, SFO)
+Load(C4, P1, SFO)
+Unload(C4, P1, ORD)
+Load(C2, P1, ORD)
+Fly(P1, SFO, JFK)
+Unload(C2, P1, ATL)
+Load(C4, P1, ORD)
+Fly(P1, JFK, SFO)
+Unload(C4, P1, ATL)
+Load(C2, P1, ATL)
+Fly(P1, SFO, JFK)
+Unload(C2, P1, SFO)
+Load(C4, P1, ATL)
+Fly(P1, JFK, SFO)
+Unload(C4, P1, SFO)
+Load(C1, P1, ORD)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, ATL)
+Load(C4, P1, SFO)
+Fly(P1, JFK, SFO)
+Unload(C4, P1, ORD)
+Load(C2, P1, SFO)
+Fly(P1, SFO, JFK)
+Unload(C2, P1, ORD)
+Load(C4, P1, ORD)
+Fly(P1, JFK, SFO)
+Unload(C4, P1, ATL)
+Load(C2, P1, ORD)
+Fly(P1, SFO, JFK)
+Unload(C2, P1, ATL)
+Load(C4, P1, ATL)
+Fly(P1, JFK, SFO)
+Unload(C4, P1, SFO)
+Load(C1, P1, ATL)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, SFO)
+Load(C4, P1, SFO)
+Fly(P1, JFK, SFO)
+Unload(C4, P1, ORD)
+Load(C2, P1, ATL)
+Fly(P1, SFO, JFK)
+Unload(C2, P1, ORD)
+Load(C4, P1, ORD)
+Fly(P1, JFK, SFO)
+Unload(C4, P1, ATL)
+Load(C2, P1, ORD)
+Fly(P1, SFO, JFK)
+Unload(C2, P1, SFO)
+Load(C4, P1, ATL)
+Unload(C4, P1, JFK)
+Fly(P1, JFK, SFO)
+Load(C2, P1, SFO)
+Unload(C2, P1, ORD)
+Load(C1, P1, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, ORD)
+Load(C3, P1, JFK)
+Fly(P1, JFK, SFO)
+Unload(C3, P1, ORD)
+Load(C2, P1, ORD)
+Fly(P1, SFO, JFK)
+Unload(C2, P1, ATL)
+Load(C4, P1, JFK)
+Fly(P1, JFK, SFO)
+Unload(C4, P1, ORD)
+Load(C3, P1, ORD)
+Unload(C3, P1, ATL)
+Fly(P1, SFO, JFK)
+Load(C4, P1, ORD)
+Unload(C4, P1, ATL)
+Fly(P1, JFK, SFO)
+Load(C3, P1, ATL)
+Unload(C3, P1, SFO)
+Fly(P1, SFO, JFK)
+Load(C4, P1, ATL)
+Unload(C4, P1, ORD)
+Load(C2, P1, ATL)
+Fly(P1, JFK, SFO)
+Unload(C2, P1, SFO)
+Load(C4, P1, ORD)
+Fly(P1, SFO, JFK)
+Unload(C4, P1, ATL)
+Load(C1, P1, ORD)
+Fly(P1, JFK, SFO)
+Unload(C1, P1, ATL)
+Load(C4, P1, ATL)
+Fly(P1, SFO, JFK)
+Unload(C4, P1, ORD)
+Load(C3, P1, SFO)
+Fly(P1, JFK, SFO)
+Unload(C3, P1, ORD)
+Load(C4, P1, ORD)
+Fly(P1, SFO, JFK)
+Unload(C4, P1, ATL)
+Load(C3, P1, ORD)
+Unload(C3, P1, ATL)
+Fly(P1, JFK, SFO)
+Load(C4, P1, ATL)
+Unload(C4, P1, SFO)
+Fly(P1, SFO, JFK)
+Load(C2, P1, SFO)
+Unload(C2, P1, ORD)
+Fly(P1, JFK, SFO)
+Load(C4, P1, SFO)
+Unload(C4, P1, ORD)
+Fly(P1, SFO, JFK)
+Load(C2, P1, ORD)
+Unload(C2, P1, ATL)
+Fly(P1, JFK, SFO)
+Load(C4, P1, ORD)
+Unload(C4, P1, ATL)
+Load(C3, P1, ATL)
+Unload(C3, P1, ORD)
+Fly(P1, SFO, JFK)
+Load(C4, P1, ATL)
+Unload(C4, P1, ORD)
+Load(C2, P1, ATL)
+Unload(C2, P1, ORD)
+Fly(P1, JFK, SFO)
+Load(C4, P1, ORD)
+Unload(C4, P1, ATL)
+Fly(P1, SFO, JFK)
+Load(C3, P1, ORD)
+Unload(C3, P1, SFO)
+Fly(P1, JFK, SFO)
+Load(C4, P1, ATL)
+Unload(C4, P1, ORD)
+Fly(P1, SFO, JFK)
+Load(C1, P1, ATL)
+Unload(C1, P1, SFO)
+Fly(P1, JFK, SFO)
+Load(C4, P1, ORD)
+Unload(C4, P1, ATL)
+Fly(P1, SFO, JFK)
+Load(C3, P1, SFO)
+Unload(C3, P1, ORD)
+Fly(P1, JFK, SFO)
+Load(C4, P1, ATL)
+Unload(C4, P1, ORD)
+Fly(P1, SFO, JFK)
+Load(C2, P1, ORD)
+Unload(C2, P1, ATL)
+Fly(P1, JFK, SFO)
+Load(C4, P1, ORD)
+Unload(C4, P1, ATL)
+Fly(P1, SFO, JFK)
+Load(C3, P1, ORD)
+Unload(C3, P1, ATL)
+Fly(P1, JFK, SFO)
+Load(C4, P1, ATL)
+Unload(C4, P1, ORD)
+Load(C2, P1, ATL)
+Unload(C2, P1, ORD)
+Fly(P1, SFO, JFK)
+Load(C4, P1, ORD)
+Unload(C4, P1, SFO)
+Fly(P1, JFK, SFO)
+Load(C3, P1, ATL)
+Load(C2, P1, ORD)
+Fly(P1, SFO, JFK)
+Unload(C3, P1, ORD)
+Unload(C2, P1, ORD)
+Load(C1, P1, SFO)
+Fly(P1, JFK, SFO)
+Load(C2, P1, ORD)
+Unload(C2, P1, ATL)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+Fly(P1, JFK, SFO)
+Load(C4, P1, SFO)
+Unload(C4, P1, ORD)
+Fly(P1, SFO, JFK)
+Load(C3, P1, ORD)
+Unload(C3, P1, ATL)
+Fly(P1, JFK, SFO)
+Load(C4, P1, ORD)
+Unload(C4, P1, ATL)
+Fly(P1, SFO, JFK)
+Load(C3, P1, ATL)
+Unload(C3, P1, ORD)
+Load(C2, P1, ATL)
+Fly(P1, JFK, SFO)
+Unload(C2, P1, ORD)
+Load(C4, P1, ATL)
+Fly(P1, SFO, JFK)
+Unload(C4, P1, ORD)
+Load(C3, P1, ORD)
+Fly(P1, JFK, SFO)
+Unload(C3, P1, ATL)
+Load(C4, P1, ORD)
+Fly(P1, SFO, JFK)
+Unload(C4, P1, ATL)
+Load(C3, P1, ATL)
+Unload(C3, P1, SFO)
+Fly(P1, JFK, SFO)
+Load(C4, P1, ATL)
+Unload(C4, P1, SFO)
+Fly(P1, SFO, JFK)
+Load(C3, P1, SFO)
+Unload(C3, P1, JFK)
+Fly(P1, JFK, SFO)
+Load(C4, P1, SFO)
+Unload(C4, P1, ORD)
+Load(C2, P1, ORD)
+Fly(P1, SFO, JFK)
+Unload(C2, P1, SFO)
+Load(C4, P1, ORD)
+Fly(P1, JFK, SFO)
+Unload(C4, P1, SFO)
+
+Problem3Method4
+
+Solving Air Cargo Problem 3 using depth_limited_search...
+^CTraceback (most recent call last):
+  File "run_search.py", line 124, in <module>
+    main(list(sorted(set(args.problems))), list(sorted(set((args.searches)))))
+  File "run_search.py", line 101, in main
+    run_search(_p, s, _h)
+  File "run_search.py", line 59, in run_search
+    node = search_function(ip)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 294, in depth_limited_search
+    return recursive_dls(Node(problem.initial), problem, limit)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 286, in recursive_dls
+    result = recursive_dls(child, problem, limit - 1)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 286, in recursive_dls
+    result = recursive_dls(child, problem, limit - 1)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 286, in recursive_dls
+    result = recursive_dls(child, problem, limit - 1)
+  [Previous line repeated 46 more times]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 279, in recursive_dls
+    if problem.goal_test(node.state):
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 1120, in goal_test
+    result = self.problem.goal_test(state)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_air_cargo_problems.py", line 170, in goal_test
+    kb.tell(decode_state(state, self.state_map).pos_sentence())
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/lp_utils.py", line 18, in pos_sentence
+    return expr(conjunctive_sentence(self.pos, []))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/lp_utils.py", line 31, in conjunctive_sentence
+    clauses.append(expr("{}".format(f)))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 482, in expr
+    return eval(expr_handle_infix_ops(x), defaultkeydict(Symbol))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 495, in expr_handle_infix_ops
+    x = x.replace(op, '|' + repr(op) + '|')
+KeyboardInterrupt
+Problem3Method5
+
+Solving Air Cargo Problem 3 using uniform_cost_search...
+
+Expansions   Goal Tests   New Nodes
+   4933        4935       83600   
+
+Plan length: 11  Time elapsed in seconds: 139.92443845700473
+Load(C1, P1, SFO)
+Fly(P1, SFO, JFK)
+Load(C2, P1, JFK)
+Fly(P1, SFO, ATL)
+Load(C3, P1, ATL)
+Unload(C3, P1, JFK)
+Unload(C1, P1, JFK)
+Fly(P1, JFK, ORD)
+Load(C4, P1, ORD)
+Unload(C4, P1, SFO)
+Unload(C2, P1, SFO)
+
+Problem3Method6
+
+Solving Air Cargo Problem 3 using recursive_best_first_search with h_1...
+^CTraceback (most recent call last):
+  File "run_search.py", line 124, in <module>
+    main(list(sorted(set(args.problems))), list(sorted(set((args.searches)))))
+  File "run_search.py", line 101, in main
+    run_search(_p, s, _h)
+  File "run_search.py", line 57, in run_search
+    node = search_function(ip, parameter)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 350, in recursive_best_first_search
+    result, bestf = RBFS(problem, node, infinity)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 344, in RBFS
+    result, best.f = RBFS(problem, best, min(flimit, alternative))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 344, in RBFS
+    result, best.f = RBFS(problem, best, min(flimit, alternative))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 344, in RBFS
+    result, best.f = RBFS(problem, best, min(flimit, alternative))
+  [Previous line repeated 1 more times]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 329, in RBFS
+    successors = node.expand(problem)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 107, in expand
+    for action in problem.actions(self.state)]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 107, in <listcomp>
+    for action in problem.actions(self.state)]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 111, in child_node
+    next = problem.result(self.state, action)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 1116, in result
+    return self.problem.result(state, action)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_air_cargo_problems.py", line 159, in result
+    neg = [ x for x in self.state_map if not x in kb.clauses]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_air_cargo_problems.py", line 159, in <listcomp>
+    neg = [ x for x in self.state_map if not x in kb.clauses]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 416, in __eq__
+    and self.args == other.args)
+KeyboardInterrupt
+Problem3Method7
+
+Solving Air Cargo Problem 3 using greedy_best_first_graph_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+   2105        2107       33841   
+
+Plan length: 29  Time elapsed in seconds: 48.1543084429577
+Load(C1, P1, SFO)
+Load(C2, P2, JFK)
+Fly(P1, SFO, ORD)
+Load(C4, P1, ORD)
+Fly(P1, SFO, ATL)
+Load(C3, P1, ATL)
+Fly(P1, SFO, JFK)
+Unload(C4, P1, JFK)
+Load(C4, P2, JFK)
+Unload(C3, P1, JFK)
+Load(C3, P2, JFK)
+Unload(C1, P1, JFK)
+Load(C1, P2, JFK)
+Unload(C2, P2, JFK)
+Load(C2, P1, JFK)
+Unload(C1, P2, JFK)
+Load(C1, P1, JFK)
+Unload(C3, P2, JFK)
+Load(C3, P1, JFK)
+Fly(P1, JFK, SFO)
+Unload(C4, P2, JFK)
+Fly(P2, JFK, SFO)
+Fly(P1, SFO, JFK)
+Load(C4, P1, JFK)
+Unload(C3, P1, JFK)
+Unload(C1, P1, JFK)
+Fly(P1, JFK, SFO)
+Unload(C4, P1, SFO)
+Unload(C2, P1, SFO)
+
+Problem3Method8
+
+Solving Air Cargo Problem 3 using astar_search with h_1...
+
+Expansions   Goal Tests   New Nodes
+   4933        4935       83600   
+
+Plan length: 11  Time elapsed in seconds: 136.99058978119865
+Load(C1, P1, SFO)
+Fly(P1, SFO, JFK)
+Load(C2, P1, JFK)
+Fly(P1, SFO, ATL)
+Load(C3, P1, ATL)
+Unload(C3, P1, JFK)
+Unload(C1, P1, JFK)
+Fly(P1, JFK, ORD)
+Load(C4, P1, ORD)
+Unload(C4, P1, SFO)
+Unload(C2, P1, SFO)
+
+Problem3Method9
+
+Solving Air Cargo Problem 3 using astar_search with h_ignore_preconditions...
+
+Expansions   Goal Tests   New Nodes
+   2609        2611       43259   
+
+Plan length: 11  Time elapsed in seconds: 88.37035879585892
+Load(C1, P1, SFO)
+Fly(P1, SFO, JFK)
+Unload(C1, P1, JFK)
+Load(C2, P1, JFK)
+Fly(P1, SFO, ATL)
+Load(C3, P1, ATL)
+Unload(C3, P1, JFK)
+Fly(P1, JFK, ORD)
+Load(C4, P1, ORD)
+Unload(C4, P1, SFO)
+Unload(C2, P1, SFO)
+
+Problem3Method10
+
+Solving Air Cargo Problem 3 using astar_search with h_pg_levelsum...
+^CTraceback (most recent call last):
+  File "run_search.py", line 124, in <module>
+    main(list(sorted(set(args.problems))), list(sorted(set((args.searches)))))
+  File "run_search.py", line 101, in main
+    run_search(_p, s, _h)
+  File "run_search.py", line 57, in run_search
+    node = search_function(ip, parameter)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 316, in astar_search
+    return best_first_graph_search(problem, lambda n: n.path_cost + h(n))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 262, in best_first_graph_search
+    frontier.append(child)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 586, in append
+    bisect.insort(self.A, (self.f(item), item))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 280, in memoized_fn
+    val = fn(obj, *args)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 316, in <lambda>
+    return best_first_graph_search(problem, lambda n: n.path_cost + h(n))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 280, in memoized_fn
+    val = fn(obj, *args)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_air_cargo_problems.py", line 189, in h_pg_levelsum
+    pg = PlanningGraph(self, node.state)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_planning_graph.py", line 225, in __init__
+    self.create_graph()
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_planning_graph.py", line 288, in create_graph
+    self.add_action_level(level)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_planning_graph.py", line 317, in add_action_level
+    newnode = PgNode_a(act)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_planning_graph.py", line 130, in __init__
+    self.is_persistent = True
+KeyboardInterrupt
+(aind) srikanth-mac-2:AIND-Planning-master srikanth$ exit
+
+Script done on Mon Mar 20 15:55:16 2017

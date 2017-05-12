@@ -1,0 +1,42 @@
+Script started on Tue Mar 21 02:25:14 2017
+[?1034h>>sh-x [K[K[K -x /tmp/y
++ python run_search.py -p 2 -s 2
+
+Solving Air Cargo Problem 2 using breadth_first_tree_search...
+^CTraceback (most recent call last):
+  File "run_search.py", line 124, in <module>
+
+    main(list(sorted(set(args.problems))), list(sorted(set((args.searches)))))
+  File "run_search.py", line 101, in main
+    run_search(_p, s, _h)
+  File "run_search.py", line 59, in run_search
+    node = search_function(ip)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 208, in breadth_first_tree_search
+    return tree_search(problem, FIFOQueue())
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 185, in tree_search
+    frontier.extend(node.expand(problem))
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 107, in expand
+    for action in problem.actions(self.state)]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 107, in <listcomp>
+    for action in problem.actions(self.state)]
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 111, in child_node
+    next = problem.result(self.state, action)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/search.py", line 1116, in result
+    return self.problem.result(state, action)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/my_air_cargo_problems.py", line 161, in result
+    return encode_state(new_state, self.state_map)
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/lp_utils.py", line 46, in encode_state
+    if fluent in fs.pos:
+  File "/Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master/aimacode/utils.py", line 412, in __eq__
+    def __eq__(self, other):
+KeyboardInterrupt
+
+^Cc
+
+^C
+>>
+>>
+>>pushd /
+/ /Volumes/LaCie/Udacity/AI/Project3/AIND-Planning-master
+>>sudo umount -f /Volumes/LaCie/[K
+Password:

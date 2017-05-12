@@ -1,0 +1,507 @@
+Script started on Mon Feb 20 12:16:24 2017
+[?1034h>>>for i in {1..10}; python tournament.py;[1@d[1@o[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C done
+
+This script evaluates the performance of the custom heuristic function by
+comparing the strength of an agent using iterative deepening (ID) search with
+alpha-beta pruning against the strength rating of agents using other heuristic
+functions.  The `ID_Improved` agent provides a baseline by measuring the
+performance of a basic agent using Iterative Deepening and the "improved"
+heuristic (from lecture) on your hardware.  The `Student` agent then measures
+the performance of Iterative Deepening and the custom heuristic against the
+same opponents.
+
+
+*************************
+ Evaluating: ID_Improved 
+*************************
+
+Playing Matches:
+----------
+  Match 1: ID_Improved vs   Random    	Result: 18 to 2
+  Match 2: ID_Improved vs   MM_Null   	Result: 20 to 0
+  Match 3: ID_Improved vs   MM_Open   	Result: 15 to 5
+  Match 4: ID_Improved vs MM_Improved 	Result: 17 to 3
+  Match 5: ID_Improved vs   AB_Null   	Result: 20 to 0
+  Match 6: ID_Improved vs   AB_Open   	Result: 15 to 5
+  Match 7: ID_Improved vs AB_Improved 	Result: 15 to 5
+
+
+Results:
+----------
+ID_Improved         85.71%
+
+*************************
+   Evaluating: Student   
+*************************
+
+Playing Matches:
+----------
+  Match 1:   Student   vs   Random    	Result: 18 to 2
+  Match 2:   Student   vs   MM_Null   	Result: 19 to 1
+  Match 3:   Student   vs   MM_Open   	Result: 16 to 4
+  Match 4:   Student   vs MM_Improved 	Result: 12 to 8
+  Match 5:   Student   vs   AB_Null   	Result: 18 to 2
+  Match 6:   Student   vs   AB_Open   	Result: 18 to 2
+  Match 7:   Student   vs AB_Improved 	Result: 16 to 4
+
+
+Results:
+----------
+Student             83.57%
+
+This script evaluates the performance of the custom heuristic function by
+comparing the strength of an agent using iterative deepening (ID) search with
+alpha-beta pruning against the strength rating of agents using other heuristic
+functions.  The `ID_Improved` agent provides a baseline by measuring the
+performance of a basic agent using Iterative Deepening and the "improved"
+heuristic (from lecture) on your hardware.  The `Student` agent then measures
+the performance of Iterative Deepening and the custom heuristic against the
+same opponents.
+
+
+*************************
+ Evaluating: ID_Improved 
+*************************
+
+Playing Matches:
+----------
+  Match 1: ID_Improved vs   Random    	Result: 19 to 1
+  Match 2: ID_Improved vs   MM_Null   	Result: 19 to 1
+  Match 3: ID_Improved vs   MM_Open   	Result: 18 to 2
+  Match 4: ID_Improved vs MM_Improved 	Result: 15 to 5
+  Match 5: ID_Improved vs   AB_Null   	Result: 20 to 0
+  Match 6: ID_Improved vs   AB_Open   	Result: 16 to 4
+  Match 7: ID_Improved vs AB_Improved 	Result: 17 to 3
+
+
+Results:
+----------
+ID_Improved         88.57%
+
+*************************
+   Evaluating: Student   
+*************************
+
+Playing Matches:
+----------
+  Match 1:   Student   vs   Random    	Result: 19 to 1
+  Match 2:   Student   vs   MM_Null   	Result: 19 to 1
+  Match 3:   Student   vs   MM_Open   	Result: 17 to 3
+  Match 4:   Student   vs MM_Improved 	Result: 15 to 5
+  Match 5:   Student   vs   AB_Null   	Result: 20 to 0
+  Match 6:   Student   vs   AB_Open   	Result: 16 to 4
+  Match 7:   Student   vs AB_Improved 	Result: 13 to 7
+
+
+Results:
+----------
+Student             85.00%
+
+This script evaluates the performance of the custom heuristic function by
+comparing the strength of an agent using iterative deepening (ID) search with
+alpha-beta pruning against the strength rating of agents using other heuristic
+functions.  The `ID_Improved` agent provides a baseline by measuring the
+performance of a basic agent using Iterative Deepening and the "improved"
+heuristic (from lecture) on your hardware.  The `Student` agent then measures
+the performance of Iterative Deepening and the custom heuristic against the
+same opponents.
+
+
+*************************
+ Evaluating: ID_Improved 
+*************************
+
+Playing Matches:
+----------
+  Match 1: ID_Improved vs   Random    	Result: 18 to 2
+  Match 2: ID_Improved vs   MM_Null   	Result: 20 to 0
+  Match 3: ID_Improved vs   MM_Open   	Result: 15 to 5
+  Match 4: ID_Improved vs MM_Improved 	Result: 20 to 0
+  Match 5: ID_Improved vs   AB_Null   	Result: 20 to 0
+  Match 6: ID_Improved vs   AB_Open   	Result: 17 to 3
+  Match 7: ID_Improved vs AB_Improved 	Result: 15 to 5
+
+
+Results:
+----------
+ID_Improved         89.29%
+
+*************************
+   Evaluating: Student   
+*************************
+
+Playing Matches:
+----------
+  Match 1:   Student   vs   Random    	Result: 18 to 2
+  Match 2:   Student   vs   MM_Null   	Result: 20 to 0
+  Match 3:   Student   vs   MM_Open   	Result: 15 to 5
+  Match 4:   Student   vs MM_Improved 	Result: 16 to 4
+  Match 5:   Student   vs   AB_Null   	Result: 19 to 1
+  Match 6:   Student   vs   AB_Open   	Result: 14 to 6
+  Match 7:   Student   vs AB_Improved 	Result: 15 to 5
+
+
+Results:
+----------
+Student             83.57%
+
+This script evaluates the performance of the custom heuristic function by
+comparing the strength of an agent using iterative deepening (ID) search with
+alpha-beta pruning against the strength rating of agents using other heuristic
+functions.  The `ID_Improved` agent provides a baseline by measuring the
+performance of a basic agent using Iterative Deepening and the "improved"
+heuristic (from lecture) on your hardware.  The `Student` agent then measures
+the performance of Iterative Deepening and the custom heuristic against the
+same opponents.
+
+
+*************************
+ Evaluating: ID_Improved 
+*************************
+
+Playing Matches:
+----------
+  Match 1: ID_Improved vs   Random    	Result: 19 to 1
+  Match 2: ID_Improved vs   MM_Null   	Result: 20 to 0
+  Match 3: ID_Improved vs   MM_Open   	Result: 16 to 4
+  Match 4: ID_Improved vs MM_Improved 	Result: 17 to 3
+  Match 5: ID_Improved vs   AB_Null   	Result: 19 to 1
+  Match 6: ID_Improved vs   AB_Open   	Result: 12 to 8
+  Match 7: ID_Improved vs AB_Improved 	Result: 17 to 3
+
+
+Results:
+----------
+ID_Improved         85.71%
+
+*************************
+   Evaluating: Student   
+*************************
+
+Playing Matches:
+----------
+  Match 1:   Student   vs   Random    	Result: 20 to 0
+  Match 2:   Student   vs   MM_Null   	Result: 18 to 2
+  Match 3:   Student   vs   MM_Open   	Result: 13 to 7
+  Match 4:   Student   vs MM_Improved 	Result: 17 to 3
+  Match 5:   Student   vs   AB_Null   	Result: 19 to 1
+  Match 6:   Student   vs   AB_Open   	Result: 15 to 5
+  Match 7:   Student   vs AB_Improved 	Result: 16 to 4
+
+
+Results:
+----------
+Student             84.29%
+
+This script evaluates the performance of the custom heuristic function by
+comparing the strength of an agent using iterative deepening (ID) search with
+alpha-beta pruning against the strength rating of agents using other heuristic
+functions.  The `ID_Improved` agent provides a baseline by measuring the
+performance of a basic agent using Iterative Deepening and the "improved"
+heuristic (from lecture) on your hardware.  The `Student` agent then measures
+the performance of Iterative Deepening and the custom heuristic against the
+same opponents.
+
+
+*************************
+ Evaluating: ID_Improved 
+*************************
+
+Playing Matches:
+----------
+  Match 1: ID_Improved vs   Random    	Result: 20 to 0
+  Match 2: ID_Improved vs   MM_Null   	Result: 19 to 1
+  Match 3: ID_Improved vs   MM_Open   	Result: 14 to 6
+  Match 4: ID_Improved vs MM_Improved 	Result: 17 to 3
+  Match 5: ID_Improved vs   AB_Null   	Result: 18 to 2
+  Match 6: ID_Improved vs   AB_Open   	Result: 16 to 4
+  Match 7: ID_Improved vs AB_Improved 	Result: 16 to 4
+
+
+Results:
+----------
+ID_Improved         85.71%
+
+*************************
+   Evaluating: Student   
+*************************
+
+Playing Matches:
+----------
+  Match 1:   Student   vs   Random    	Result: 19 to 1
+  Match 2:   Student   vs   MM_Null   	Result: 20 to 0
+  Match 3:   Student   vs   MM_Open   	Result: 19 to 1
+  Match 4:   Student   vs MM_Improved 	Result: 15 to 5
+  Match 5:   Student   vs   AB_Null   	Result: 20 to 0
+^C  Match 6:   Student   vs   AB_Open   Traceback (most recent call last):
+  File "tournament.py", line 182, in <module>
+    main()
+  File "tournament.py", line 174, in main
+    win_ratio = play_round(agents, NUM_MATCHES)
+  File "tournament.py", line 125, in play_round
+    score_1, score_2 = play_match(p1, p2)
+  File "tournament.py", line 80, in play_match
+    winner, _, termination = game.play(time_limit=TIME_LIMIT)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 332, in play
+    curr_move = self.active_player.get_move(game_copy, legal_player_moves, time_left)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 332, in get_move
+    score, _ = self.alphabeta(nextgame, current_depth-1, maximizing_player=False)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 459, in alphabeta
+    newscore, _ = self.alphabeta(nextgame, depth-1, alpha, beta, not maximizing_player)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 452, in alphabeta
+    return float(self.score(game,self)), (-1,-1)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 150, in custom_score
+    return heuristic2(game, player)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 68, in heuristic2
+    my_next_score = len(game.forecast_move(move).get_legal_moves(player))
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 121, in forecast_move
+    new_board = self.copy()
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 102, in copy
+    new_board.__board_state__ = deepcopy(self.__board_state__)
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 215, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 215, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+KeyboardInterrupt
+
+This script evaluates the performance of the custom heuristic function by
+comparing the strength of an agent using iterative deepening (ID) search with
+alpha-beta pruning against the strength rating of agents using other heuristic
+functions.  The `ID_Improved` agent provides a baseline by measuring the
+performance of a basic agent using Iterative Deepening and the "improved"
+heuristic (from lecture) on your hardware.  The `Student` agent then measures
+the performance of Iterative Deepening and the custom heuristic against the
+same opponents.
+
+
+*************************
+ Evaluating: ID_Improved 
+*************************
+
+Playing Matches:
+----------
+^C  Match 1: ID_Improved vs   Random    Traceback (most recent call last):
+  File "tournament.py", line 182, in <module>
+    main()
+  File "tournament.py", line 174, in main
+    win_ratio = play_round(agents, NUM_MATCHES)
+  File "tournament.py", line 125, in play_round
+    score_1, score_2 = play_match(p1, p2)
+  File "tournament.py", line 80, in play_match
+    winner, _, termination = game.play(time_limit=TIME_LIMIT)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 332, in play
+    curr_move = self.active_player.get_move(game_copy, legal_player_moves, time_left)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 332, in get_move
+    score, _ = self.alphabeta(nextgame, current_depth-1, maximizing_player=False)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 459, in alphabeta
+    newscore, _ = self.alphabeta(nextgame, depth-1, alpha, beta, not maximizing_player)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 459, in alphabeta
+    newscore, _ = self.alphabeta(nextgame, depth-1, alpha, beta, not maximizing_player)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 459, in alphabeta
+    newscore, _ = self.alphabeta(nextgame, depth-1, alpha, beta, not maximizing_player)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 455, in alphabeta
+    legal_moves = game.get_legal_moves(player)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 186, in get_legal_moves
+    return self.__get_moves__(self.__last_player_move__[player])
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 264, in __get_moves__
+    valid_moves = [(r+dr,c+dc) for dr, dc in directions if self.move_is_legal((r+dr, c+dc))]
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 264, in <listcomp>
+    valid_moves = [(r+dr,c+dc) for dr, dc in directions if self.move_is_legal((r+dr, c+dc))]
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 141, in move_is_legal
+    return 0 <= row < self.height and \
+KeyboardInterrupt
+
+This script evaluates the performance of the custom heuristic function by
+comparing the strength of an agent using iterative deepening (ID) search with
+alpha-beta pruning against the strength rating of agents using other heuristic
+functions.  The `ID_Improved` agent provides a baseline by measuring the
+performance of a basic agent using Iterative Deepening and the "improved"
+heuristic (from lecture) on your hardware.  The `Student` agent then measures
+the performance of Iterative Deepening and the custom heuristic against the
+same opponents.
+
+
+*************************
+ Evaluating: ID_Improved 
+*************************
+
+Playing Matches:
+----------
+^C  Match 1: ID_Improved vs   Random    Traceback (most recent call last):
+  File "tournament.py", line 182, in <module>
+    main()
+  File "tournament.py", line 174, in main
+    win_ratio = play_round(agents, NUM_MATCHES)
+  File "tournament.py", line 125, in play_round
+    score_1, score_2 = play_match(p1, p2)
+  File "tournament.py", line 80, in play_match
+    winner, _, termination = game.play(time_limit=TIME_LIMIT)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 332, in play
+    curr_move = self.active_player.get_move(game_copy, legal_player_moves, time_left)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 332, in get_move
+    score, _ = self.alphabeta(nextgame, current_depth-1, maximizing_player=False)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 459, in alphabeta
+    newscore, _ = self.alphabeta(nextgame, depth-1, alpha, beta, not maximizing_player)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 459, in alphabeta
+    newscore, _ = self.alphabeta(nextgame, depth-1, alpha, beta, not maximizing_player)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 459, in alphabeta
+    newscore, _ = self.alphabeta(nextgame, depth-1, alpha, beta, not maximizing_player)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 458, in alphabeta
+    nextgame = game.forecast_move(move)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 121, in forecast_move
+    new_board = self.copy()
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 102, in copy
+    new_board.__board_state__ = deepcopy(self.__board_state__)
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 215, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 215, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 190, in _deepcopy_atomic
+    def _deepcopy_atomic(x, memo):
+KeyboardInterrupt
+
+This script evaluates the performance of the custom heuristic function by
+comparing the strength of an agent using iterative deepening (ID) search with
+alpha-beta pruning against the strength rating of agents using other heuristic
+functions.  The `ID_Improved` agent provides a baseline by measuring the
+performance of a basic agent using Iterative Deepening and the "improved"
+heuristic (from lecture) on your hardware.  The `Student` agent then measures
+the performance of Iterative Deepening and the custom heuristic against the
+same opponents.
+
+
+*************************
+ Evaluating: ID_Improved 
+*************************
+
+Playing Matches:
+----------
+^C  Match 1: ID_Improved vs   Random    Traceback (most recent call last):
+  File "tournament.py", line 182, in <module>
+    main()
+  File "tournament.py", line 174, in main
+    win_ratio = play_round(agents, NUM_MATCHES)
+  File "tournament.py", line 125, in play_round
+    score_1, score_2 = play_match(p1, p2)
+  File "tournament.py", line 80, in play_match
+    winner, _, termination = game.play(time_limit=TIME_LIMIT)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 332, in play
+    curr_move = self.active_player.get_move(game_copy, legal_player_moves, time_left)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 332, in get_move
+    score, _ = self.alphabeta(nextgame, current_depth-1, maximizing_player=False)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 459, in alphabeta
+    newscore, _ = self.alphabeta(nextgame, depth-1, alpha, beta, not maximizing_player)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 459, in alphabeta
+    newscore, _ = self.alphabeta(nextgame, depth-1, alpha, beta, not maximizing_player)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 455, in alphabeta
+    legal_moves = game.get_legal_moves(player)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 186, in get_legal_moves
+    return self.__get_moves__(self.__last_player_move__[player])
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 264, in __get_moves__
+    valid_moves = [(r+dr,c+dc) for dr, dc in directions if self.move_is_legal((r+dr, c+dc))]
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 264, in <listcomp>
+    valid_moves = [(r+dr,c+dc) for dr, dc in directions if self.move_is_legal((r+dr, c+dc))]
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 125, in move_is_legal
+    def move_is_legal(self, move):
+KeyboardInterrupt
+
+This script evaluates the performance of the custom heuristic function by
+comparing the strength of an agent using iterative deepening (ID) search with
+alpha-beta pruning against the strength rating of agents using other heuristic
+functions.  The `ID_Improved` agent provides a baseline by measuring the
+performance of a basic agent using Iterative Deepening and the "improved"
+heuristic (from lecture) on your hardware.  The `Student` agent then measures
+the performance of Iterative Deepening and the custom heuristic against the
+same opponents.
+
+
+*************************
+ Evaluating: ID_Improved 
+*************************
+
+Playing Matches:
+----------
+^C  Match 1: ID_Improved vs   Random    Traceback (most recent call last):
+  File "tournament.py", line 182, in <module>
+    main()
+  File "tournament.py", line 174, in main
+    win_ratio = play_round(agents, NUM_MATCHES)
+  File "tournament.py", line 125, in play_round
+    score_1, score_2 = play_match(p1, p2)
+  File "tournament.py", line 80, in play_match
+    winner, _, termination = game.play(time_limit=TIME_LIMIT)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 332, in play
+    curr_move = self.active_player.get_move(game_copy, legal_player_moves, time_left)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 332, in get_move
+    score, _ = self.alphabeta(nextgame, current_depth-1, maximizing_player=False)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 458, in alphabeta
+    nextgame = game.forecast_move(move)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 121, in forecast_move
+    new_board = self.copy()
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 96, in copy
+    new_board = Board(self.__player_1__, self.__player_2__, width=self.width, height=self.height)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 45, in __init__
+    self.width = width
+KeyboardInterrupt
+
+This script evaluates the performance of the custom heuristic function by
+comparing the strength of an agent using iterative deepening (ID) search with
+alpha-beta pruning against the strength rating of agents using other heuristic
+functions.  The `ID_Improved` agent provides a baseline by measuring the
+performance of a basic agent using Iterative Deepening and the "improved"
+heuristic (from lecture) on your hardware.  The `Student` agent then measures
+the performance of Iterative Deepening and the custom heuristic against the
+same opponents.
+
+
+*************************
+ Evaluating: ID_Improved 
+*************************
+
+Playing Matches:
+----------
+^C  Match 1: ID_Improved vs   Random    Traceback (most recent call last):
+  File "tournament.py", line 182, in <module>
+    main()
+  File "tournament.py", line 174, in main
+    win_ratio = play_round(agents, NUM_MATCHES)
+  File "tournament.py", line 125, in play_round
+    score_1, score_2 = play_match(p1, p2)
+  File "tournament.py", line 80, in play_match
+    winner, _, termination = game.play(time_limit=TIME_LIMIT)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 332, in play
+    curr_move = self.active_player.get_move(game_copy, legal_player_moves, time_left)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 332, in get_move
+    score, _ = self.alphabeta(nextgame, current_depth-1, maximizing_player=False)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/game_agent.py", line 458, in alphabeta
+    nextgame = game.forecast_move(move)
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 121, in forecast_move
+    new_board = self.copy()
+  File "/Volumes/LaCie/Udacity/AI/Project2/AIND-Isolation-master.save/isolation/isolation.py", line 102, in copy
+    new_board.__board_state__ = deepcopy(self.__board_state__)
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 215, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 215, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "/Volumes/LaCie/Tools/anaconda/envs/aind/lib/python3.6/copy.py", line 148, in deepcopy
+    copier = _deepcopy_dispatch.get(cls)
+KeyboardInterrupt
+>>>exit
+
+Script done on Mon Feb 20 12:53:55 2017
